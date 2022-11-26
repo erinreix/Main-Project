@@ -97,8 +97,9 @@ button:hover{
 
 .featured {
     display: flex;
-    margin: 2% 23% 5% 23%;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin bottom: 50px;
 }
 
 .card {
