@@ -89,32 +89,37 @@ button:hover{
     color: plum;
 }
 
-.title {
-    font-family: "Roboto";
-    text-align: center;
-    padding-top: 5%;
+section {
+    display: block;
 }
 
-.featured {
-    display: flex;
+.random-info h1 {
+    font-family: "Roboto";
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 25px;
 }
 
 .card {
-    flex-basis: 25%;
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+figure {
+    display: block;
+    margin-block-start: 4%;
+    margin-block-end: 4%;
 }
 
 .card img {
     border-radius: 7%;
-   
 }
 
-.card p {
+figcaption {
     font-family: Arial, Helvetica, sans-serif;
     color: #4d4e50;
+    text-align: center;
+    width: 150px;
 }
 
 .quotes {
